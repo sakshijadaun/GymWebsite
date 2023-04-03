@@ -1,5 +1,26 @@
 body {
     margin: 0px;
     padding: 0px;
+    color: white;
     background: url('../image/bg.jpg');
+}
+.left{
+    display: inline-block;
+    border: 2px solid red;
+
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 12px auto;
+    border: 2px solid green;
+
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 22px;
+    display: inline-block;
+    border: 2px solid yellow;
+
 }
