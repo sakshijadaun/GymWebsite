@@ -7,7 +7,7 @@ body {
 }
 .left{
     display: inline-block;
-    border: 2px solid red;
+ 
     position: absolute;
     left: 50px;
     top: 20px;
@@ -29,7 +29,7 @@ body {
     display: block;
     width: 45%;
     margin: 20px auto;
-    border: 2px solid green;
+   
 
 }
 .right{
@@ -37,7 +37,7 @@ body {
     right: 34px;
     top: 20px;
     display: inline-block;
-    border: 2px solid yellow;
+    /*border: 2px solid yellow;*/
 
 }
 
