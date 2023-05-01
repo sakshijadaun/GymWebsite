@@ -55,6 +55,16 @@ body {
 .btn:hover{
     background-color: rgb(88, 85, 85);
 }
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 3px auto;
+    font-size: 15px;
+    border-radius: 5px;
+}
 .navbar{
     display: inline-block;
 
@@ -74,8 +84,17 @@ body {
 }
 .container{
     border: 2px solid white;
-    margin: 106px 80px;
+    margin: 80px 50px;
     padding: 75px;
-    width: 33%;
+    width: 23%;
     border-radius: 28px;
+}
+#txt{
+    font-size: 20px;
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 98%;
+    margin: auto;
 }
